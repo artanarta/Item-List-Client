@@ -1,0 +1,119 @@
+.container {
+    padding: 35px 95px 100px 100px;
+    background-color: #E5E5E5;
+
+  }
+
+  .red{
+    color: #FF0000;
+  }
+  
+  .title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .incomeTable {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .incomeTable tr {
+    border-bottom: 1px solid #c9afaf;
+}
+  
+  .incomeTable th {
+    line-height: 50px;
+  }
+  
+  .incomeTable td {
+    border-bottom: 1px solid #c9afaf;
+    font-size: 15px;
+    line-height: 75px;
+    font-weight: normal;
+    font-family: Roboto;
+  }
+  
+  .pending {
+    color: #f7941e;
+    font-weight: 600 !important;
+  }
+  
+  .approved {
+    color: #0acf83;
+    font-weight: 600 !important;
+  }
+
+  .active {
+    color: #0acf83;
+    font-weight: 600 !important;
+  }
+
+  .notActive {
+    color: #f70303;
+    font-weight: 600 !important;
+  }
+  
+  .cancel {
+    color: #ff0742;
+    font-weight: 600 !important;
+  }
+
+  .dropdownAction {
+    background: #faf3f3;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    /* width: 25px;
+    height: 100px; */
+  }
+
+  .dropdownToogle{
+    border: none;
+    background: #E5E5E5;
+    color: blue;
+    
+  }
+
+.dropdownToogle:focus {
+  outline: 100;
+}
+
+.listBook {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 55px;
+}
+  
+
+.titleCard {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+
+.imageCard{
+  width: 225px;
+  height: 300px;
+}
+
+.writerCard {
+  font-size: 16px;
+}
+
+.buttonCard {
+  width: 80px;
+  height: 50px;
+  display: "block";
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #D60000;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: none;
+}

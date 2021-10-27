@@ -1,0 +1,61 @@
+.editProfilForm {
+    padding: 1px 20px 10px 20px;
+  }
+  
+  .title{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .inputField {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    background: rgba(179, 169, 169, 0.25);
+    border: 2px solid rgba(77, 70, 70, 0.25);
+  }
+
+  .inputFieldImage {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    background: rgba(179, 169, 169, 0.25);
+    border: 2px solid rgba(77, 70, 70, 0.25);
+  }
+  
+  .button {
+    width: 100%;
+    height: 44px;
+
+    width: "100%";
+    font-size: 17px;
+    font-weight: 800;
+    color: #ffffff;
+    background: #D60000;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .clickedHere{
+    padding: 5px 50px 5px 49px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .background {
+    width: 500px;
+    left: 33%;
+
+
+  }
+  

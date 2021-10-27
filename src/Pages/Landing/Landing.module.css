@@ -1,0 +1,23 @@
+  .button {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .landingText {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .background {
+    background-size: contain;
+    background-color: #E5E5E5;;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  .landingContent {
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 81px;
+  }

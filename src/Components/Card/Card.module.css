@@ -1,0 +1,18 @@
+   .title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    padding: 0px;
+  }
+
+  .image{
+    width: 205px;
+    height: 300px;
+    cursor: pointer;
+  }
+  
+  .writer {
+    font-size: 16px;
+  }

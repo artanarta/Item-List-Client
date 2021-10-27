@@ -1,0 +1,20 @@
+.wow{
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+
+.ReactReader{
+    position: relative;
+    height: 100vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.background {
+    background-color: #E5E5E5;
+ 
+}

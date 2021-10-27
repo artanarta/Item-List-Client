@@ -1,0 +1,51 @@
+.signinForm {
+  padding: 2px 20px 20px 20px;
+}
+
+.title{
+  padding: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 13px;
+  margin-top: 10px;
+
+  background: rgba(179, 169, 169, 0.25);
+  border: 2px solid rgba(77, 70, 70, 0.25);
+}
+
+.button {
+  width: 327px;
+  height: 44px;
+  display: "block";
+  width: "100%";
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #D60000;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.clickedHere{
+  margin-left: 19px;
+  margin-bottom: 10px;
+  padding: 5px 50px 5px 44px;
+  font-weight: 500;
+}
+
+.background {
+  width:  400px;
+  top : 5%;
+  left: 33%;
+
+}
