@@ -1,0 +1,46 @@
+.inputField {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 28px;
+
+  background: rgba(179, 169, 169, 0.25);
+  border: 2px solid rgba(77, 70, 70, 0.25);
+}
+
+.button {
+  width: 180px;
+  right: 400px;
+  height: 44px;
+  display: "block";
+  width: "100%";
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #D60000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+label {
+  background: rgba(179, 169, 169, 0.25);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 40px;
+  border-style: solid;
+  color: rgb(139, 126, 126);
+  border: 2px solid rgba(77, 70, 70, 0.25);
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}

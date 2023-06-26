@@ -1,21 +1,12 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import LandingPage from "./Pages/Landing/Landing";
-import Home from "./Pages/Home/Home";
-import Subscribe from "./Pages/Subscribe/Subscribe";
-import Owner from "./Pages/Owner/Owner";
-import AddBook from "./Pages/Add Book/AddBook";
-import Profile from "./Pages/Profile/Profile";
-import DetailPage from "./Pages/Detail Page/DetailPage";
-import ReadBook from "./Pages/Read Book/ReadBook";
-import EditBook from "./Pages/Edit Book/EditBook";
-import EditContentBook from "./Pages/Edit Content Book/EditContentBook";
+import AddItem from "./Pages/Add Item/AddItem";
+import ListItem from "./Pages/List Item/ListItem";
+import EditItem from "./Pages/Edit Item/EditItem";
 import { UserContext } from "./Context/userContext";
 import { API } from "./Config/api";
 import { useContext, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-
 import { setAuthToken } from "./Config/api";
 
 // init token on axios every time the app is refreshed
@@ -35,11 +26,7 @@ function App() {
     if (state.isLogin === false) {
       history.push("/");
     } else {
-      if (state.user.role === "Admin") {
-        history.push("/owner");
-      } else if (state.user.role === "Customer") {
-        history.push("/home");
-      }
+      history.push("/list-item");
     }
   }, [state]);
 
@@ -54,7 +41,6 @@ function App() {
       }
 
       let payload = response.data.data.user;
-      console.log(payload, "payload");
       payload.token = localStorage.token;
 
       dispatch({
@@ -72,40 +58,20 @@ function App() {
 
 
   return (
-          <Switch>
-            <Route exact path="/">
-              <LandingPage />
-            </Route>
-            <Route exact path="/home">
-              <Home />
-            </Route>
-            <Route exact path="/subs">
-              <Subscribe />
-            </Route>
-            <Route exact path="/profile">
-              <Profile />
-            </Route>
-            <Route exact path="/detail/:id">
-              <DetailPage />
-            </Route>
-            <Route exact path="/read/:id">
-              <ReadBook />
-            </Route>
-            <Route exact path="/owner">
-              <Owner />
-            </Route>
-            <Route exact path="/addBook">
-              <AddBook />
-            </Route>
-            <Route exact path="/editBook">
-              <EditBook />
-            </Route>
-            <Route exact path="/editContentBook/:id">
-              <EditContentBook />
-            </Route>
-          </Switch>
-
-
+    <Switch>
+      <Route exact path="/">
+        <LandingPage />
+      </Route>
+      <Route exact path="/add-item">
+        <AddItem />
+      </Route>
+      <Route exact path="/list-item">
+        <ListItem />
+      </Route>
+      <Route exact path="/item/:id">
+        <EditItem />
+      </Route>
+    </Switch>
   );
 }
 

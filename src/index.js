@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { UserContextProvider } from "./Context/userContext";
 import {
   BrowserRouter as Router
@@ -10,11 +11,11 @@ import {
 ReactDOM.render(
   <React.StrictMode>
     <UserContextProvider>
-    <Router>
-    <App />
-    </Router>
+      <Router>
+        <App />
+      </Router>
     </UserContextProvider>
-  
+
   </React.StrictMode>,
   document.getElementById('root')
 );

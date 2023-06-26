@@ -1,43 +1,46 @@
    .title {
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 18px;
-    margin-bottom: 12px;
-    padding: 0px;
-  }
-  
-  .image{
-    width: 225px;
-    height: 300px;
-  }
+     font-size: 20px;
+     font-weight: 700;
+     font-family: "Times New Roman", Times, serif;
+     margin-top: 18px;
+     margin-bottom: 12px;
+     padding: 0px;
+   }
 
-  .writer {
-    font-size: 16px;
-  }
+   .image {
+     width: 39vh;
+     height: 39vh;
+     border-radius: 5px;
+     cursor: pointer;
+   }
 
-  .button {
-    width: 80px;
-    height: 50px;
-    display: "block";
-    font-size: 17px;
-    font-weight: 800;
-    color: #ffffff;
-    background: #3749ec;
-    margin-top: 25px;
-    border-radius: 5px;
-    border: none;
-  }
+   .stok {
+     font-size: 16px;
+     font-family: "SF Pro Text";
+   }
 
-  .button2 {
-    width: 80px;
-    height: 50px;
-    display: "block";
-    font-size: 17px;
-    font-weight: 800;
-    color: #ffffff;
-    background: #c51313;
-    margin-top: 25px;
-    border-radius: 5px;
-    border: none;
-  }
+   .button {
+     width: 80px;
+     height: 50px;
+     display: "block";
+     font-size: 17px;
+     font-weight: 800;
+     color: #ffffff;
+     background: #3749ec;
+     margin-top: 25px;
+     border-radius: 5px;
+     border: none;
+   }
+
+   .button2 {
+     width: 80px;
+     height: 50px;
+     display: "block";
+     font-size: 17px;
+     font-weight: 800;
+     color: #ffffff;
+     background: #c51313;
+     margin-top: 25px;
+     border-radius: 5px;
+     border: none;
+   }
